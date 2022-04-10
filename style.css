@@ -1,0 +1,22 @@
+
+.white{
+    height: 10vh;
+    width: 200px;
+    background-color: white;
+    border: 1px solid rgb(150, 30, 30); 
+    z-index: -1;
+    list-style-type: none;
+    display: block;
+    border-radius: 10%;
+
+}
+
+.black{
+    height: 10vh;
+    width: 150px;
+    background-color: black;
+    border: 1px solid rgb(184, 25, 25);
+    display: block;
+    list-style-type: none;
+    transform: translateY(15px)   
+}
