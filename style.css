@@ -1,6 +1,16 @@
+div{
+    background-color: aqua;
+
+}
+li{
+    text-align: right;
+    font-size: 28px;
+    color: white;
+}
+
 
 .white{
-    height: 50px;
+    height: 35px;
     width: 200px;
     background-color: white;
     border: 1px solid rgb(150, 30, 30); 
@@ -8,20 +18,48 @@
     list-style-type: none;
     display: block;
     border-radius: 10%;
+    box-shadow: none
+    transition: width 2s;
+    transition: box-shadow 2s;
+    
 
+}
+.white:hover{
+    width: 190px;
+    box-shadow: 10px 10px 20px;
+    transition: color 4s;
+    color: black;
+    
 }
 
 .black{
-    height: 25px;
+    height: 28px;
     width: 150px;
     background-color: black;
-    border: 1px solid rgb(184, 25, 25);
+    border: 1px solid white;
     display: block;
     list-style-type: none;
-    transform: translateY(15px)
-    
+    transform: translateY(50px);
+
 }
+.black:hover{
+    width:140px;
+    box-shadow: 10px 20px 20px;
+    transition: width 2s;
+    transition: box-shadow 2s;
+    transition: color 2s;
+    color: white;
+    
+
+}
+
+li .black {
+    border-radius: 20%;
+    color: black;
+
+}
+
 .white ol{
     padding: 0%;
-    border-radius: 10%;
+    border-radius: 120%;
 }
